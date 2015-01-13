@@ -13,7 +13,7 @@ CFLAGS          := -Wall -Wbad-function-cast -Wcast-align \
 		   -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs \
 		   -Wpointer-arith -Wshadow -Wstrict-prototypes \
 		   -Wswitch-default -Wunsafe-loop-optimizations \
-		   -Wwrite-strings -Werror
+		   -Wwrite-strings
 CFLAGS          += -c -fPIC
 
 DEBUG       ?= 0
